@@ -1,4 +1,4 @@
-package nl.javaminor.week3.RestEnControllers;
+package nl.minor.week3.RestAPI;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(RestEnControllersApplication.class);
+		return application.sources(RestAPIApplication.class);
 	}
 
 }
