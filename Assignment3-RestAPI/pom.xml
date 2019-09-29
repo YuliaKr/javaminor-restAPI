@@ -8,12 +8,12 @@
 		<version>2.1.8.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>nl.javaminor.week3</groupId>
-	<artifactId>RestEnControllers</artifactId>
+	<groupId>nl.minor.week3</groupId>
+	<artifactId>RestAPI</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>RestEnControllers</name>
-	<description>Opdracht 3 van Minor Full-Stack Java</description>
+	<name>RestAPI</name>
+	<description>Assigment 3 Rest API Java Minor</description>
 
 	<properties>
 		<java.version>11</java.version>
