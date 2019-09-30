@@ -20,11 +20,16 @@ public class AccountOwnerDto {
         this.firstName = firstName;
     }
 
-    public String getLastName() {
+    public String getSurname() {
         return surname;
     }
 
-    public void setLastName(String lastName) {
+    public void setSurname(String lastName) {
         this.surname = lastName;
+    }
+
+    public AccountOwnerDto (String firstName, String surname){
+        firstName = firstName;
+        surname = surname;
     }
 }

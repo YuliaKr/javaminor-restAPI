@@ -7,6 +7,7 @@ import nl.minor.week3.RestAPI.Models.Dtos.AccountOwnerDto;
 import nl.minor.week3.RestAPI.Models.ModelMappers.AccountOwnerMapper;
 import nl.minor.week3.RestAPI.Models.ModelMappers.AccountMapper;
 import nl.minor.week3.RestAPI.Repos.AccountRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.CacheControl;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -27,6 +28,7 @@ public class AccountController {
     private final AccountMapper _accountMapper;
     private final AccountOwnerMapper _accountOwnerMapper;
 
+    @Autowired
     public AccountController(
             AccountMapper accountMapper,
             AccountOwnerMapper accountOwnerMapper,
